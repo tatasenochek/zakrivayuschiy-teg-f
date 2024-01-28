@@ -14,7 +14,7 @@
 */
 
 .page {
-  min-inline-size: 375px;
+  min-inline-size: 320px;
   min-block-size: 100dvb;
   max-block-size: 100vh;
   font-size: 18px;
@@ -47,7 +47,6 @@
   font-family: var(--title-font), monospace;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   line-height: 100%;
-  font-weight: 400px;
   text-transform: uppercase;
   padding-block-end: 1.2rem;
   text-align: center;
@@ -79,7 +78,7 @@
   position: relative;
   border: none;
   background-color: transparent;
-  font-family: var(--title-font);
+  font-family: var(--title-font), monospace;
   font-size: 14px;
   line-height: 90%;
   text-transform: uppercase;
@@ -180,9 +179,9 @@
   color: var(--text-color);
   text-shadow: -1px 0 var(--bg-color), 0 1px var(--bg-color),
     1px 0 var(--bg-color), 0 -1px var(--bg-color);
-  font-family: var(--title-font);
+  font-family: var(--title-font), monospace;
   font-size: 14px;
-  font-weight: var(--main-font-weight);
+  font-variation-settings: var(--main-font-weight);
   line-height: normal;
   opacity: 0.5;
   mix-blend-mode: hard-light;
@@ -248,7 +247,7 @@
   padding: 0;
   border: 2px solid var(--text-color);
   color: var(--text-color);
-  font-family: var(--title-font);
+  font-family: var(--title-font), monospace;
   font-size: 14px;
   line-height: 125%;
   cursor: pointer;
@@ -444,7 +443,7 @@
 .dialog__text {
   grid-column-start: 2;
   color: var(--text-color);
-  font-family: var(--title-font);
+  font-family: var(--title-font), monospace;
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
@@ -452,10 +451,10 @@
 }
 
 .dialog__close {
-grid-row-start: 2;
-grid-column-start: 1;
-grid-column-end: 3;
-text-transform: uppercase;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-transform: uppercase;
 }
 
 .dialog__close-text {
