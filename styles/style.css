@@ -168,11 +168,40 @@
 .card__image img {
   display: block;
   inline-size: 100%;
-  block-size: cover;
+  object-fit: cover;
+}
+
+.filter-brightness {
+  filter: brightness(50%);
+}
+
+.filter-saturate {
+  filter: saturate(200%);
+}
+
+.filter-sepia {
+  filter: sepia(80%);
+}
+
+.filter-invert {
+  filter: invert(0.7);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(180deg);
+}
+
+.filter-contrast {
+  filter: contrast(20%);
+}
+
+.filter-grayscale {
+  filter: grayscale(0.9);
 }
 
 .card__image-label {
   position: absolute;
+  z-index: 1;
   top: 26px;
   right: 24px;
   color: var(--text-color);
@@ -240,7 +269,6 @@
 .button {
   position: relative;
   background-color: var(--bg-color);
-  border: none;
   display: block;
   padding: 0;
   border: 2px solid var(--text-color);
