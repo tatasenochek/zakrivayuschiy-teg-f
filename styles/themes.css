@@ -64,7 +64,7 @@
     rgba(0, 0, 0, 0) 2px, rgba(0, 0, 0, 0) 4px),
     linear-gradient(180deg, #007f0c, #004306);
 
-    fill: #00cc14;
+    --contour-color: #00cc14;
 
   }
 }
@@ -86,7 +86,7 @@
     rgba(109, 193, 253, 0) 2px, rgba(109, 193, 253, 0) 4px),
     linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a);
 
-    fill: #000;
+    --contour-color: #000;
     }
     
   }
