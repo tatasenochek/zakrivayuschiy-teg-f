@@ -19,7 +19,7 @@
   min-height: 100vh;
   font-size: 18px;
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: var(--main-font-weight);
+  font-variation-settings: "wght" var(--main-font-weight);
   line-height: 120%;
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -109,7 +109,6 @@
   left: 1rem;
   inline-size: 0;
   block-size: 2px;
-  transition: none;
   background-color: var(--text-color);
   transition: 0.3s ease;
 }

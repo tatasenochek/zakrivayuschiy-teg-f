@@ -8,8 +8,8 @@
 :root.theme-light {
   --main-font: "Inter-Variable", sans-serif;
   --title-font: "PressStart2P", monospace;
-  --main-font-weight: "wght" 400;
-  --subtitle-font-weight: "wght" 700;
+  --main-font-weight: 400;
+  --subtitle-font-weight: 700;
   --bg-color: #fff;
   --text-color: #000;
   --bg-btn: #000;
@@ -29,8 +29,8 @@
 }
 
 :root.theme-dark {
-  --main-font-weight: "wght" 465;
-  --subtitle-font-weight: "wght" 785;
+  --main-font-weight: 465;
+  --subtitle-font-weight: 785;
   --bg-color: #000;
   --text-color: #00cc14;
   --bg-btn: #00cc14;
@@ -49,8 +49,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-font-weight: "wght" 465;
-    --subtitle-font-weight: "wght" 785;
+    --main-font-weight: 465;
+    --subtitle-font-weight: 785;
     --bg-color: #000;
     --text-color: #00cc14;
     --bg-btn: #00cc14;
@@ -71,8 +71,8 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --main-font-weight: "wght" 400;
-        --subtitle-font-weight: "wght" 700;
+        --main-font-weight: 400;
+        --subtitle-font-weight: 700;
         --bg-color: #fff;
         --text-color: #000;
         --bg-btn: #000;

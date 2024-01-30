@@ -2,8 +2,8 @@
 :root {
     --main-font: 'Inter-Variable', sans-serif;
     --title-font: 'PressStart2P', monospace;
-    --main-font-weight: "wght" 400;
-    --subtitle-font-weight: "wght" 700;
+    --main-font-weight: 400;
+    --subtitle-font-weight: 700;
     --bg-color: #fff;
     --text-color: #000;
     --bg-btn: #000;
