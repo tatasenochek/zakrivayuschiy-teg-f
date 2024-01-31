@@ -131,7 +131,7 @@
   padding-block-end: 103px;
 }
 
-.main__content-item:not(:last-of-type) {
+.main__content-item {
   margin-block-end: 50px;
 }
 
@@ -305,7 +305,7 @@
   transform: scaleX(1);
 }
 
-.button-text {
+.button__text {
   display: flex;
   justify-content: center;
   z-index: 2;
@@ -320,18 +320,14 @@
   padding: 14px 22px;
   gap: 6px;
   margin: 0 auto;
-  color: var(--text-color);
 }
 
 .main__content-button-icon {
   display: flex;
   z-index: 2;
   inline-size: 21px;
-}
-
-.main__content-button:hover {
-  color: var(--bg-color);
-  transition: 0.1s ease-in-out;
+  color: var(--text-color-button);
+  mix-blend-mode: difference;
 }
 
 .dialog {

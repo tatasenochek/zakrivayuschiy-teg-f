@@ -107,7 +107,7 @@
                   </svg>
                 </button>
                 <button type="button" class="card__like-button button">
-                  <span class="card__like-button-text button-text">like</span>
+                  <span class="card__like-button-text button__text">Like</span>
                 </button>
               </div>
             </div>
@@ -172,7 +172,7 @@
                   </svg>
                 </button>
                 <button type="button" class="card__like-button button">
-                  <span class="card__like-button-text button-text">like</span>
+                  <span class="card__like-button-text button__text">Like</span>
                 </button>
               </div>
             </div>
@@ -234,7 +234,7 @@
                   </svg>
                 </button>
                 <button type="button" class="card__like-button button">
-                  <span class="card__like-button-text button-text">like</span>
+                  <span class="card__like-button-text button__text">Like</span>
                 </button>
               </div>
             </div>
@@ -298,7 +298,7 @@
                   </svg>
                 </button>
                 <button type="button" class="card__like-button button">
-                  <span class="card__like-button-text button-text">like</span>
+                  <span class="card__like-button-text button__text">Like</span>
                 </button>
               </div>
             </div>
@@ -363,7 +363,7 @@
                   </svg>
                 </button>
                 <button type="button" class="card__like-button button">
-                  <span class="card__like-button-text button-text">like</span>
+                  <span class="card__like-button-text button__text">Like</span>
                 </button>
               </div>
             </div>
@@ -426,7 +426,7 @@
                   </svg>
                 </button>
                 <button type="button" class="card__like-button button">
-                  <span class="card__like-button-text button-text">like</span>
+                  <span class="card__like-button-text button__text">Like</span>
                 </button>
               </div>
             </div>
@@ -490,7 +490,7 @@
                   </svg>
                 </button>
                 <button type="button" class="card__like-button button">
-                  <span class="card__like-button-text button-text">like</span>
+                  <span class="card__like-button-text button__text">Like</span>
                 </button>
               </div>
             </div>
@@ -555,14 +555,14 @@
                   </svg>
                 </button>
                 <button type="button" class="card__like-button button">
-                  <span class="card__like-button-text button-text">like</span>
+                  <span class="card__like-button-text button__text">Like</span>
                 </button>
               </div>
             </div>
           </article>
         </li>
-        <li class="main__content-item">
-          <button
+      </ul>
+      <button
             type="button"
             class="main__content-button button"
             onclick="window['dialog'].showModal();"
@@ -571,10 +571,8 @@
             <svg viewBox="0 0 21 21" class="main__content-button-icon">
               <use href="./svg/floppy.svg#floppy" class="floppy" />
             </svg>
-            <span class="main__content-button-text button-text">Сохранить на память</span>
+            <span class="main__content-button-text button__text">Сохранить на память</span>
           </button>
-        </li>
-      </ul>
       <dialog
         id="dialog"
         class="dialog"
@@ -582,7 +580,7 @@
       >
         <div class="dialog__content">
           <svg class="dialog__icon" viewBox="0 0 21 21">
-            <use href="./svg/floppy.svg#floppy" class="floppy" />
+            <use href="./svg/floppy.svg#floppy" class="dialog__floppy" />
           </svg>
           <h2 id="dialog-title" class="dialog__text">
             Вставьте дискету, чтобы продолжить
@@ -592,7 +590,7 @@
             type="button"
             onclick="window['dialog'].close();"
           >
-            <span class="dialog__close-text button-text">ok</span>
+            <span class="dialog__close-text button__text">ok</span>
           </button>
         </div>
       </dialog>
